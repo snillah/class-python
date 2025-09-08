@@ -1,3 +1,14 @@
+# What is a Data Type?
+
+A data type defines the kind of value a variable can hold and what operations can be performed on it.
+
+In simple words:
+
+A data type tells what type of data is stored (number, text, list, etc.).
+
+Example: If x = 10, Python knows it’s an integer (int).
+
+
 # The basic data types in Python with examples.
 
 
