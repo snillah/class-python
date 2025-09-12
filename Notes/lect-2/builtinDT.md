@@ -6,7 +6,7 @@
         float   → decimal numbers
         complex → numbers with real and imaginary part
 ```py
-        z = 2 + 3j
+z = 2 + 3j
 print(type(z))   # <class 'complex'>
 print(z.real, z.imag)  # 2.0  3.0
 ```
