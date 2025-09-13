@@ -113,6 +113,8 @@ Number guessing game
 
 To-do list manager (with file saving)
 
+api project
+
 Simple student marks system
 
-👉 This syllabus will make you job-ready for scripting, automation, and basic application building.
+ This syllabus will make you job-ready for scripting, automation, and basic application building.

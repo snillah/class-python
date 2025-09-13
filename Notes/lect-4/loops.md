@@ -1,4 +1,4 @@
-Loops:
+# Loops:
 
 1) for Loop Basics
 Used to iterate (loop) over a sequence (list, string, tuple, range, etc.).
@@ -107,5 +107,87 @@ for i in range(1, 10, 2):
 5
 7
 9
+
+```
+| Loop Type    | Use                                                |
+| ------------ | -------------------------------------------------- |
+| **for**      | Iterate over sequence (list, tuple, string, range) |
+| **while**    | Repeat while condition is True                     |
+| **break**    | Exit loop completely                               |
+| **continue** | Skip current iteration                             |
+| **pass**     | Do nothing (placeholder)                           |
+| **range()**  | Generate numbers for looping                       |
+
+# What is a Nested Loop?
+
+A loop inside another loop.
+
+The outer loop runs first.
+
+For each iteration of the outer loop, the inner loop runs completely.
+
+1. Simple Nested Loop:
+```py
+for i in range(3):          # Outer loop
+    for j in range(2):      # Inner loop
+        print(f"i={i}, j={j}")
+
+
+#o/p:
+i=0, j=0
+i=0, j=1
+i=1, j=0
+i=1, j=1
+i=2, j=0
+i=2, j=1
+# Here, for each i, the full inner loop runs.
+```
+
+2. Multiplication Table
+```py
+for i in range(1, 4):        # Outer loop (rows)
+    for j in range(1, 4):    # Inner loop (columns)
+        print(i * j, end=" ")
+    print()   # Move to next line after inner loop
+
+# o/p
+1 2 3 
+2 4 6 
+3 6 9 
+
+```
+
+3. Star Pattern (Pyramid Shape)
+```py
+for i in range(1, 6):      # Outer loop (rows)
+    for j in range(i):     # Inner loop (columns)
+        print("*", end=" ")
+    print()
+
+# o/p
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+```
+
+4. Using while in Nested Loops
+```py
+i = 1
+while i <= 3:       # Outer loop
+    j = 1
+    while j <= 2:   # Inner loop
+        print(f"i={i}, j={j}")
+        j += 1
+    i += 1
+# o/p
+i=1, j=1
+i=1, j=2
+i=2, j=1
+i=2, j=2
+i=3, j=1
+i=3, j=2
+
 
 ```
