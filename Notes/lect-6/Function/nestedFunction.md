@@ -1,13 +1,7 @@
-def add(a,b):
-    print(a+b)
 
+# Function inside another function (nested)
 
-def add(a,b):
-    print(a*b)
-
-add(15+5,20)
-add(15+5,20)
-
+```py
 def outer():
     print("This is outer function")
 
@@ -17,3 +11,5 @@ def outer():
     inner()
 
 outer()
+
+```
