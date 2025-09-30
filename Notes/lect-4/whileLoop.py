@@ -1,20 +1,12 @@
 
-print("""
-      ADD,
-      Edit,
-      Delete,
-      View => CRUD operations
-      """)
-
-para = []
-
+chatMessage = []
+print("message box : ")
 while 1:
-    # c = int(input("Select your choice : "))
     line = input()
     if line == "":
         break
-    para.append(line)
+    chatMessage.append(line)
 
 
 
-print(" ".join(para))
+print(" ".join(chatMessage))
