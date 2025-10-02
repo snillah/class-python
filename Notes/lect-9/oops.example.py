@@ -28,3 +28,4 @@ class Dog:
 
 for animal in (Cat(), Dog()):
     animal.sound()
+
