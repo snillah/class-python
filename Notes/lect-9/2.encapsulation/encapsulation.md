@@ -106,3 +106,12 @@ print(s1.get_marks())     # 95
 s1.set_marks(150)         # invalid
 
 ```
+
+## Report
+| Concept                | Meaning                                                       |
+| ---------------------- | ------------------------------------------------------------- |
+| **Encapsulation**      | Hiding internal data and allowing access only through methods |
+| **Private Variable**   | `__variable` — cannot be accessed directly                    |
+| **Protected Variable** | `_variable` — used within subclasses                          |
+| **Public Variable**    | accessible anywhere                                           |
+| **Goal**               | Secure, maintainable, controlled access to data               |
