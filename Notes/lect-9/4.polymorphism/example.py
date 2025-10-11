@@ -20,3 +20,20 @@ class Square(Shape):
 shapes = [Circle(), Square()]
 for s in shapes:
     print(s.area(2))
+
+
+
+class Distance:
+    def __init__(self, km):
+        self.km = km
+
+    def __add__(self, other):
+        return Distance(self.km + other.km)
+
+    # def __str__(self):
+    #     return f"{self.km} km"
+
+d1 = Distance(50)
+d2 = Distance(70)
+
+print(d1 + d2)   # 120 km
