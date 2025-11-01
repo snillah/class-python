@@ -19,3 +19,4 @@ print(flat)
 
 mul = [[num *3 for num in row] for row in matrix]
 print(mul)
+

@@ -38,8 +38,8 @@ b = {3, 4, 5}
 
 print(a | b)        # {1, 2, 3, 4, 5}   (union)
 print(a & b)        # {3}               (intersection)
-print(a - b)        # {1, 2}            (difference)
-print(a ^ b)        # {1, 2, 4, 5}      (symmetric difference)
+print(a - b)        # {1, 2}            (difference) - Means: take all elements that are in "a" but not in "b".
+print(a ^ b)        # {1, 2, 4, 5}      (symmetric difference) - Means: take all elements that are in a or b, but not in both.
 
 ```
 
